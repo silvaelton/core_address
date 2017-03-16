@@ -1,9 +1,9 @@
-module Address
-  class SituationUnit < ActiveRecord::Base
+module CoreAddress
+  class SituationUnit < ApplicationRecord
 
-    audited
+    self.table_name = 'extranet.address_situation_units'
 
-  has_many :unit
+    has_many :unit
 
   end
 end

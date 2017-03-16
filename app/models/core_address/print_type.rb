@@ -1,4 +1,4 @@
-module Address
+module CoreAddress
   class PrintType < ApplicationRecord
 
     self.table_name = 'extranet.address_print_types'
